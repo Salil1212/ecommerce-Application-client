@@ -4,18 +4,18 @@ import CartItem from "../components/CartItem";
 import CartSummary from "../components/CartSummary";
 
 export default function Cart({cart=[
-  {
-    "id": 3,
-    "name": "Product 3",
-    "image":"https://cdn.pixabay.com/photo/2017/04/19/13/58/notebook-2242372_1280.jpg",
-    "price": 19.99,
-    "description": "Description of Product 3",
-    "quantity":1
-  }
+  // {
+  //   "id": 3,
+  //   "name": "Product 3",
+  //   "image":"https://cdn.pixabay.com/photo/2017/04/19/13/58/notebook-2242372_1280.jpg",
+  //   "price": 19.99,
+  //   "description": "Description of Product 3",
+  //   "quantity":1
+  // }
 ],updateQuantity,removeItem}) {
 
 
-  const subtotal = cart.reduce(
+  const subtotal = cart.length>0?0:cart.reduce(
     (acc, item) => acc + item.price * item.quantity,
     0
   );

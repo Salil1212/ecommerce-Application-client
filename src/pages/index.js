@@ -6,14 +6,14 @@ import "../app/globals.css"
 export default function Home() {
   const [products, setProducts] = useState([]);
   const [cart, setCart] = useState([
-    {
-      "id": 3,
-      "name": "Product 3",
-      "image":"https://cdn.pixabay.com/photo/2017/04/19/13/58/notebook-2242372_1280.jpg",
-      "price": 19.99,
-      "description": "Description of Product 3",
-      "quantity":1
-    }
+    // {
+    //   "id": 3,
+    //   "name": "Product 3",
+    //   "image":"https://cdn.pixabay.com/photo/2017/04/19/13/58/notebook-2242372_1280.jpg",
+    //   "price": 19.99,
+    //   "description": "Description of Product 3",
+    //   "quantity":1
+    // }
   ]);
 
   useEffect(() => {
