@@ -15,10 +15,10 @@ export default function Cart({cart=[
 ],updateQuantity,removeItem}) {
 
 
-  const subtotal = cart.length>0?0:cart.reduce(
+  const subtotal = cart.length>0?cart.reduce(
     (acc, item) => acc + item.price * item.quantity,
     0
-  );
+  ):0;
 
   return (
     <div className="container p-4 mx-auto">
