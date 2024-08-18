@@ -1,0 +1,26 @@
+
+[
+    {
+      "id": 1,
+      "name": "Product 1",
+    "image":"https://cdn.pixabay.com/photo/2017/10/30/08/42/bag-2901756_1280.png",
+      "price": 29.99,
+      "description": "Description of Product 1"
+    },
+    {
+      "id": 2,
+      "name": "Product 2",
+      "image":"https://cdn.pixabay.com/photo/2016/03/02/20/13/grocery-1232944_1280.jpg",
+      "price": 49.99,
+      "description": "Description of Product 2"
+    },
+    {
+      "id": 3,
+      "name": "Product 3",
+      "image":"https://cdn.pixabay.com/photo/2017/04/19/13/58/notebook-2242372_1280.jpg",
+      "price": 19.99,
+      "description": "Description of Product 3"
+    }
+   
+  ]
+  
