@@ -65,5 +65,3 @@ export default function Home() {
     </div>
   );
 }
-
-// SHA256:266roiIizQJNWNMpg9GX2ACEvzsViKJfl46IxQAPzWk salilnigam1212@gmail.com
